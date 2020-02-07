@@ -2,7 +2,7 @@
   "@context": 
   {
       "@version": 1.1,
-      "mtl": "https://mavennet.com/context/metals-product-vocab#",
+      "mtl": "https://mavennet.com/contexts/metals-product-vocab#",
       "xsd": "http://www.w3.org/2001/XMLSchema#",
       "prm": "http://schema.org/ProductModel",
       "org": "http://schema.org/Organization",
