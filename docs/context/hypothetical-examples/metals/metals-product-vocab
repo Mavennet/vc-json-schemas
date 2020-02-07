@@ -1,0 +1,239 @@
+# Metals/Steels Product Certificates Context
+
+- [Latest JSON-LD Context](./metals-product-v1.0.jsonld)
+
+### Terminology
+
+<h4 id="CertifiedMillTestReport"><a href="#CertifiedMillTestReport">CertifiedMillTestReport</a></h4>
+
+A type of Verifiable Credential asserting a set of properties associated with a Certified Mill Test Report.
+
+<h4 id="identifier"><a href="#identifier">identifier</a></h4>
+
+Unique code for Metal or steels product.
+
+<h4 id="manufacturerId"><a href="#manufacturerId">manufacturerId</a></h4>
+
+The creator of this metal product.
+
+<h4 id="address"><a href="#address">address</a></h4>
+
+The place where the metal product was manufactured.
+
+<h4 id="latitude"><a href="#latitude">latitude</a></h4>
+
+Latitude of manufacturing location.
+
+<h4 id="longitude"><a href="#longitude">longitude</a></h4>
+
+longitude of manufacturing location.
+
+<h4 id="physicalSpecs"><a href="#physicalSpecs">physicalSpecs</a></h4>
+
+Physical specifications of the metal product.
+
+<h4 id="uoM"><a href="#uoM">uoM</a></h4>
+
+Unit of measurement.
+
+<h4 id="minimumQuantity"><a href="#minimumQuantity">minimumQuantity</a></h4>
+
+Minimum quantity of a product.
+
+<h4 id="Al"><a href="#Al">Aluminium</a></h4>
+
+The element Aluminium.
+
+<h4 id="Bi"><a href="#Bi">Bismuth</a></h4>
+
+The element Bismuth.
+
+<h4 id="B"><a href="#B">Boron</a></h4>
+
+The element Boron.
+
+<h4 id="C"><a href="#C">Carbon</a></h4>
+
+The element Carbon.
+
+<h4 id="Cr"><a href="#Cr">Chromium</a></h4>
+
+The element Chromium.
+
+<h4 id="Co"><a href="#Co">Cobalt</a></h4>
+
+The element Cobalt.
+
+<h4 id="Cu"><a href="#Cu">Copper</a></h4>
+
+The element Copper.
+
+<h4 id="Pb"><a href="#Pb">Lead</a></h4>
+
+The element Lead.
+
+<h4 id="Mn"><a href="#Mn">Manganese</a></h4>
+
+The element Manganese.
+
+<h4 id="Mo"><a href="#Mo">Molybdenum</a></h4>
+
+The element Molybdenum.
+
+<h4 id="Ni"><a href="#Ni">Nickel</a></h4>
+
+The element Nickel.
+
+<h4 id="Nb"><a href="#Nb">Niobium</a></h4>
+
+The element Niobium.
+
+<h4 id="P"><a href="#P">Phosphorus</a></h4>
+
+The element Phosphorus.
+
+<h4 id="Se"><a href="#Se">Selenium</a></h4>
+
+The element Selenium.
+
+<h4 id="Si"><a href="#Si">Silicon</a></h4>
+
+The element Silicon.
+
+<h4 id="S"><a href="#S">Sulfur</a></h4>
+
+The element Sulfur.
+
+<h4 id="Te"><a href="#Te">Tellurium</a></h4>
+
+The element Tellurium.
+
+<h4 id="Ti"><a href="#Ti">Titanium</a></h4>
+
+The element Titanium.
+
+<h4 id="W"><a href="#W">Thungsten</a></h4>
+
+The element Thungsten.
+
+<h4 id="V"><a href="#V">Vanadium</a></h4>
+
+The element Vanadium.
+
+<h4 id="Zr"><a href="#Zr">Zirconium</a></h4>
+
+The element Zirconium.
+
+<h4 id="Sn"><a href="#Sn">Sn</a></h4>
+
+The element Tin.
+
+<h4 id="Sn"><a href="#Sn">Sn</a></h4>
+
+The element Tin.
+
+<h4 id="lime"><a href="#lime">lime</a></h4>
+
+Lime content.
+
+<h4 id="magnesia"><a href="#magnesia">magnesia</a></h4>
+
+Magnesia content.
+
+<h4 id="moisture"><a href="#moisture">moisture</a></h4>
+
+Moisture content.
+
+<h4 id="ash"><a href="#ash">ash</a></h4>
+
+Ash content.
+
+<h4 id="fixedCarbon"><a href="#fixedCarbon">fixedCarbon</a></h4>
+
+Fixed carbon.
+
+<h4 id="lossOnIgnition"><a href="#lossOnIgnition">lossOnIgnition</a></h4>
+
+Loss on ignition.
+
+<h4 id="granularity"><a href="#granularity">granularity</a></h4>
+
+Granularity.
+
+<h4 id="tumbleIndex"><a href="#tumbleIndex">tumbleIndex</a></h4>
+
+Tumble index.
+
+<h4 id="abrasionIndex"><a href="#abrasionIndex">abrasionIndex</a></h4>
+
+Abrasion index.
+
+<h4 id="coldCompressionStrength"><a href="#coldCompressionStrength">coldCompressionStrength</a></h4>
+
+Cold compression strength.
+
+<h4 id="pelletMeanDiameter"><a href="#pelletMeanDiameter">pelletMeanDiameter</a></h4>
+
+Pellet mean diameter.
+
+<h4 id="porosity"><a href="#porosity">porosity</a></h4>
+
+Porosity.
+
+<h4 id="comprehensiveTensileStrength"><a href="#comprehensiveTensileStrength">comprehensiveTensileStrength</a></h4>
+
+Comprehensive tensile strength.
+
+<h4 id="density"><a href="#density">density</a></h4>
+
+Density.
+<h4 id="absorptionByWeight"><a href="#absorptionByWeight">absorptionByWeight</a></h4>
+
+Absorption by weight.
+
+<h4 id="abrasionResistance"><a href="#abrasionResistance">abrasionResistance</a></h4>
+
+Abrasion resistance.
+
+<h4 id="size"><a href="#size">size</a></h4>
+
+Size.
+<h4 id="volatileMatter"><a href="#volatileMatter">volatileMatter</a></h4>
+
+Volatile matter.
+
+<h4 id="m10"><a href="#m10">m10</a></h4>
+
+M10.
+
+<h4 id="m20"><a href="#m20">m20</a></h4>
+
+M20.
+
+<h4 id="cokeStrengthAfterReaction"><a href="#cokeStrengthAfterReaction">cokeStrengthAfterReaction</a></h4>
+
+Coke strength after reaction.
+
+<h4 id="cokeReactivityIndex"><a href="#cokeReactivityIndex">cokeReactivityIndex</a></h4>
+
+Coke reactivity index.
+
+<h4 id="appliedThickness"><a href="#appliedThickness">appliedThickness</a></h4>
+
+Applied thickness.
+
+<h4 id="minimumElongation"><a href="#minimumElongation">minimumElongation</a></h4>
+
+Minimum elongation.
+
+<h4 id="standardNominalLength"><a href="#standardNominalLength">standardNominalLength</a></h4>
+
+Standard nominal length.
+
+<h4 id="diameter"><a href="#diameter">diameter</a></h4>
+
+Diameter.
+
+<h4 id="heatNumber"><a href="#heatNumber">heatNumber</a></h4>
+
+The batch from the manufacturer that the mtc applies to.
