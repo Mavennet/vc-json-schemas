@@ -12,80 +12,77 @@
   "authored": "2018-01-01T00:00:00+00:00",
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "description": "QP in-bond information",
+    "description": "QP In-bond information",
     "type": "object",
     "properties": {
-      "id": {
+      "productIdentifier": {
         "type": "string"
       },
-      "certifiedQPInBond": {
-        "type": "object",
-        "properties": {
-          "productId": {
-            "type": "string"
-          },
-          "entryNo": {
-            "type": "string"
-          },
-          "classOfEntry": {
-            "type": "string"
-          },
-          "cbpPortDirector": {
-            "type": "string"
-          },
-          "importedBy": {
-            "type": "string"
-          },
-          "transporterId": {
-            "type": "string"
-          },
-          "transportType": {
-            "type": "string"
-          },
-          "recipientId": {
-            "type": "string"
-          },
-          "deliveryAddress": {
-            "type": "string"
-          },
-          "deliveryLatitude": {
-            "type": "string"
-          },
-          "deliveryLongitude": {
-            "type": "string"
-          },
-          "valuePerItem": {
-            "type": "string"
-          },
-          "totalOrderValue": {
-            "type": "string"
-          },
-          "comments": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "productId",
-          "entryNo",
-          "classOfEntry",
-          "cbpPortDirector",
-          "importedBy",
-          "irsNumber",
-          "transporterId",
-          "recipientId",
-          "deliveryAddress",
-          "valuePerItem",
-          "totalOrderValue"
-        ]
+      "inBondNumber": {
+        "type": "string"
+      },
+      "inBondType": {
+        "type": "string"
+      },
+      "portOfEntry": {
+        "type": "string"
+      },
+      "carrier": {
+        "type": "string"
+      },
+      "irsNumber": {
+        "type": "string"
+      },
+      "transportType": {
+        "type": "string"
+      },
+      "recipient": {
+        "type": "string"
+      },
+      "originAddress": {
+        "type": "object"
+      },
+      "deliveryAddress": {
+        "type": "object"
+      },
+      "bolNumber": {
+        "type": "string"
+      },
+      "valuePerItem": {
+        "type": "string"
+      },
+      "totalOrderValue": {
+        "type": "string"
+      },
+      "expectedDeliveryDates": {
+        "type": "string"
+      },
+      "comments": {
+        "type": "string"
       }
     },
-    "required": ["certifiedQPInBond"]
+    "required": [
+      "productIdentifier",
+      "inBondNumber",
+      "inBondType",
+      "portOfEntry",
+      "carrier",
+      "irsNumber",
+      "transportType",
+      "recipient",
+      "originAddress",
+      "deliveryAddress",
+      "bolNumber",
+      "valuePerItem",
+      "totalOrderValue",
+      "expectedDeliveryDates"
+    ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
-    "created": "2019-12-11T03:50:55Z",
-    "verificationMethod": "did:key:z6MkfXT3gnptvkda3fmLVKHdJrm8gUnmx3faSd1iVeCAxYtP",
+    "created": "2020-02-20T17:55:42Z",
+    "verificationMethod": "did:v1:test:nym:z6MksN2eKAezN8Ch9qERytfhaDnPSdoRtASkVAuQsKTYSru3#z6MkhEmLWLHBFbmJc9of96yX9s1PWhZbrdkyVvvLirghRUWh",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..OhEuDcyZxZ0nVkpoc6ZwxslNcPFhOzgP-ec2KFIGi9BBOZOU3V1UT7m75k-B4_PWZU8V8hykLzWAYa-2YV_KCw"
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..nzi2wOD-13T4q1WdnwECh9zgASvbJnps16FjZb9hwoUzf8gCJHimmathWNiBm9oAR9jcwkq4nRb2YfemjuTMAg"
   }
 }

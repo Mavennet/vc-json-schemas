@@ -12,88 +12,65 @@
   "authored": "2018-01-01T00:00:00+00:00",
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "description": "Bill of lading information",
+    "description": "Bill of Lading information",
     "type": "object",
     "properties": {
-      "id": {
+      "productIdentifier": {
         "type": "string"
       },
-      "certifierdBillOfLading": {
-        "type": "object",
-        "properties": {
-          "shipperId": {
-            "type": "string"
-          },
-          "address": {
-            "type": "string"
-          },
-          "latitude": {
-            "type": "string"
-          },
-          "longitude": {
-            "type": "string"
-          },
-          "consigneeId": {
-            "type": "string"
-          },
-          "uom": {
-            "type": "string"
-          },
-          "category": {
-            "type": "string"
-          },
-          "hsCode": {
-            "type": "string"
-          },
-          "carrierId": {
-            "type": "string"
-          },
-          "transportType": {
-            "type": "string"
-          },
-          "deliveryAddress": {
-            "type": "string"
-          },
-          "bolNumber": {
-            "type": "string"
-          },
-          "valuePerItem": {
-            "type": "string"
-          },
-          "totalOrderValue": {
-            "type": "string"
-          },
-          "freightChargeTerms": {
-            "type": "string"
-          },
-          "expectedDeliveryDate": {
-            "type": "string"
-          },
-          "comments": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "shipperId",
-          "consigneeId",
-          "carrierId",
-          "deliveryAddress",
-          "bolNumber",
-          "valuePerItem",
-          "freightChargeTerms",
-          "latitude",
-          "longitude",
-          "hsCode"
-        ]
+      "bolNumber": {
+        "type": "string"
+      },
+      "carrier": {
+        "type": "string"
+      },
+      "recipient": {
+        "type": "string"
+      },
+      "transportType": {
+        "type": "string"
+      },
+      "originAddress": {
+        "type": "object"
+      },
+      "deliveryAddress": {
+        "type": "object"
+      },
+      "valuePerItem": {
+        "type": "string"
+      },
+      "totalOrderValue": {
+        "type": "string"
+      },
+      "freightChargeTerms": {
+        "type": "string"
+      },
+      "expectedDeliveryDates": {
+        "type": "string"
+      },
+      "comments": {
+        "type": "string"
       }
     },
-    "required": ["certifierdBillOfLading"]
+    "required": [
+      "productIdentifier",
+      "bolNumber",
+      "carrier",
+      "recipient",
+      "transportType",
+      "originAddress",
+      "deliveryAddress",
+      "valuePerItem",
+      "totalOrderValue",
+      "freightChargeTerms",
+      "expectedDeliveryDates"
+    ]
   },
   "proof": {
     "type": "Ed25519Signature2018",
-    "created": "2019-12-11T03:50:55Z",
-    "verificationMethod": "did:key:z6MkfXT3gnptvkda3fmLVKHdJrm8gUnmx3faSd1iVeCAxYtP",
+    "created": "2020-02-20T17:55:42Z",
+    "verificationMethod": "did:v1:test:nym:z6MksN2eKAezN8Ch9qERytfhaDnPSdoRtASkVAuQsKTYSru3#z6MkhEmLWLHBFbmJc9of96yX9s1PWhZbrdkyVvvLirghRUWh",
     "proofPurpose": "assertionMethod",
-    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..OhEuDcyZxZ0nVkpoc6ZwxslNcPFhOzgP-ec2KFIGi9BBOZOU3V1UT7m75k-B4_PWZU8V8hykLzWAYa-2YV_KCw"
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..nzi2wOD-13T4q1WdnwECh9zgASvbJnps16FjZb9hwoUzf8gCJHimmathWNiBm9oAR9jcwkq4nRb2YfemjuTMAg"
   }
 }
