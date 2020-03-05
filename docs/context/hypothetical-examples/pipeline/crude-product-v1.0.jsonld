@@ -13,7 +13,7 @@
       "name": "prm:name",
       "description": "prm:description",
       "volume": "cp:volume",
-      "location": "prm:location",
+      "address": "prm:address",
       "productionDate": "prm:productionDate",
       "predecessorOf": "prm:predecessorOf",
       "successorOf": "prm:successorOf",
