@@ -15,7 +15,7 @@
     "description": "Crude product information",
     "type": "object",
     "properties": {
-      "producerId": {
+      "producer": {
         "type": "string"
       },
       "category": {
@@ -56,7 +56,7 @@
       }
     },
     "required": [
-      "producerId",
+      "producer",
       "category",
       "hsCode",
       "identifier",

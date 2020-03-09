@@ -3,7 +3,7 @@
 - [Latest JSON-LD Context](./crude-product-v1.0.jsonld)
 
 ### Terminology
-<h4 id="producerId"><a href="#producerId">producerId</a></h4>
+<h4 id="producer"><a href="#producer">producer</a></h4>
 
 Producer or creator of this product.
 

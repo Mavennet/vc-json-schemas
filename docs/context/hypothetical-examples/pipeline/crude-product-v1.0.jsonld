@@ -6,7 +6,7 @@
       "xsd": "http://www.w3.org/2001/XMLSchema#",
       "schema": "http://schema.org/",
       "prm": "http://schema.org/ProductModel",
-      "producerId": "cp:producerId",
+      "producer": "cp:producer",
       "category": "cp:category",
       "hsCode": "cp:hsCode",
       "identifier": "prm:identifier",
