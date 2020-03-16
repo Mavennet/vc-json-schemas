@@ -5,7 +5,11 @@
 ### Terminology
 <h4 id="producer"><a href="#producer">producer</a></h4>
 
-Producer or creator of this product.
+Decentralized identity of the producer or creator of this product.
+
+<h4 id="certifier"><a href="#certifier">certifier</a></h4>
+
+Decentralized identity of the certifier of this product.
 
 <h4 id="category"><a href="#category">category</a></h4>
 

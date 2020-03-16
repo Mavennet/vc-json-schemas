@@ -1,0 +1,83 @@
+{
+  "@context": [
+    "https://w3id.org/did/v1",
+    "https://w3id.org/security/v2",
+    "https://w3c-ccg.github.io/vc-json-schemas/context/vc-json-schema-v0.0.jsonld"
+  ],
+  "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/credential-schema.json",
+  "modelVersion": "1.0",
+  "id": "https://w3c-ccg.github.io/vc-json-schemas/schema/crude-inspection-v1.0.json",
+  "name": "CrudeInspectionSchema",
+  "author": "did:key:z6MkfXT3gnptvkda3fmLVKHdJrm8gUnmx3faSd1iVeCAxYtP",
+  "authored": "2018-01-01T00:00:00+00:00",
+  "schema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "Inpection information of a crude product",
+    "type": "object",
+    "properties": {
+      "producer": {
+        "type": "string"
+      },
+      "certifier": {
+        "type": "string"
+      },
+      "category": {
+        "type": "string"
+      },
+      "hsCode": {
+        "type": "string"
+      },
+      "identifier": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "volume": {
+        "type": "number"
+      },
+      "address": {
+        "type": "object"
+      },
+      "productionDate": {
+        "type": "string"
+      },
+      "predecessorOf": {
+        "type": "array"
+      },
+      "successorOf": {
+        "type": "array"
+      },
+      "physicalSpecs": {
+        "type": "object"
+      },
+      "chemicalSpecs": {
+        "type": "object"
+      }
+    },
+    "required": [
+      "producer",
+      "certifier",
+      "category",
+      "hsCode",
+      "identifier",
+      "name",
+      "description",
+      "volume",
+      "location",
+      "productionDate",
+      "physicalSpecs",
+      "chemicalSpecs"
+      ]
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2020-02-20T17:55:42Z",
+    "verificationMethod": "did:v1:test:nym:z6MksN2eKAezN8Ch9qERytfhaDnPSdoRtASkVAuQsKTYSru3#z6MkhEmLWLHBFbmJc9of96yX9s1PWhZbrdkyVvvLirghRUWh",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..nzi2wOD-13T4q1WdnwECh9zgASvbJnps16FjZb9hwoUzf8gCJHimmathWNiBm9oAR9jcwkq4nRb2YfemjuTMAg"
+  }
+}
